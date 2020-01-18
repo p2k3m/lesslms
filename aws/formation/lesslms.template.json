@@ -230,7 +230,7 @@
                         "Arn"
                     ]
                 },
-                "Runtime": "nodejs8.10",
+                "Runtime": "nodejs12.10",
 				"MemorySize": "512",
 				"Timeout": "10"
 				
@@ -254,7 +254,7 @@
                         "Arn"
                     ]
                 },
-                "Runtime": "nodejs8.10"
+                "Runtime": "nodejs12.10"
             }
         },
         "userLambda": {
@@ -277,7 +277,7 @@
                         "Arn"
                     ]
                 },
-                "Runtime": "nodejs8.10"
+                "Runtime": "nodejs12.10"
             }
         },
         "authLambda": {
@@ -298,7 +298,7 @@
                         "Arn"
                     ]
                 },
-                "Runtime": "nodejs8.10"
+                "Runtime": "nodejs12.10"
             }
         },
         "authLambdaAutorizer": {
@@ -362,7 +362,7 @@
                         "Arn"
                     ]
                 },
-                "Runtime": "nodejs8.10",
+                "Runtime": "nodejs12.10",
                 "Timeout": 25
             }
         },
@@ -1028,7 +1028,7 @@
         },					
         "adminEmail": {
             "Type": "String",
-            "Default": "default@uoc.edu"
+            "Default": "p2k3m_2002@yahoo.com"
         }
     }
 }
